@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import MyRoutes from "./routers/MyRoutes"
+import classes from "./styles/App.module.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <h1 className={classes.Title}>🎬The films App</h1>
       </header>
+      <MyRoutes></MyRoutes>
     </div>
-  );
+    
+  )
 }
 
 export default App;

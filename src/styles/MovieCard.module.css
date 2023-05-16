@@ -1,0 +1,34 @@
+.MovieImage {
+    width: 230;
+    height: 345;
+    border-radius: 10px;
+
+}
+
+.MovieCard {
+ list-style: none;
+ font-size: 1.5rem;
+ text-align: center;
+ transition: 0.5s;
+}
+
+.MovieCard:hover {
+    opacity: 0.5;
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+
+.LinkMovieCard {
+    text-decoration: none;
+}
+
+.MovieTitle {
+    color: white;
+}
+
+@media (max-width: 560px) {
+    .MovieImage {
+        width: 90%;
+        height: auto;
+    }
+}
